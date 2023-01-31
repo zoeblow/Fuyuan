@@ -1,3 +1,12 @@
+/*
+ * @Description:
+ * @Author: wangfuyuan
+ * @Email: wangfuyuan@nnuo.com
+ * @Date: 2023-01-31 11:29:40
+ * @LastEditors: wangfuyuan
+ * @LastEditTime: 2023-01-31 11:42:23
+ * @FilePath: \Fuyuan\gatsby-config.ts
+ */
 import type { GatsbyConfig, PluginRef } from "gatsby";
 import "dotenv/config";
 
@@ -18,6 +27,7 @@ const config: GatsbyConfig = {
   },
   trailingSlash: `never`,
   plugins: [
+    `gatsby-plugin-netlify-cms`,
     {
       resolve: `@lekoarts/gatsby-theme-cara`,
       // See the theme's README for all available options
