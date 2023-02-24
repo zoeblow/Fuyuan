@@ -46,7 +46,7 @@ const NotFound = (_props: PageProps) => (
           <Inner>
             <Themed.h1>404 - Page not found</Themed.h1>
             <Themed.p>
-              Go back to <Link to="/">homepage</Link>.
+              返回<Link to="/">首页</Link>.
             </Themed.p>
           </Inner>
         </Content>
