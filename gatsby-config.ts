@@ -1,10 +1,10 @@
 /*
  * @Description:
- * @Author: wangfuyuan
- * @Email: wangfuyuan@nnuo.com
+ * @Author: zoeblwo
+ * @Email:
  * @Date: 2023-01-31 11:29:40
- * @LastEditors: wangfuyuan
- * @LastEditTime: 2023-01-31 11:42:23
+ * @LastEditors: zoeblwo
+ * @LastEditTime: 2023-03-01 14:31:30
  * @FilePath: \Fuyuan\gatsby-config.ts
  */
 import type { GatsbyConfig, PluginRef } from "gatsby";
